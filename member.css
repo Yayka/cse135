@@ -1,5 +1,10 @@
 @import "./style.css";
 
+header:hover {
+  color: #5ba3ff;
+  cursor: pointer;
+}
+
 #avatar-container {
   width: 30%;
   background-color: #0d1117;
