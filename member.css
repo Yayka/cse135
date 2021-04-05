@@ -1,0 +1,85 @@
+@import "./index.css";
+
+#avatar-container {
+  width: 30%;
+  background-color: #0d1117;
+  margin-right: 60px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  align-content: center;
+}
+
+.avatar {
+  height: auto;
+  width: 100% !important;
+  border-radius: 50% !important;
+  display: inline-block;
+  overflow: hidden;
+  vertical-align: middle;
+  border-radius: 6px;
+  flex-shrink: 0;
+  margin-bottom: 20px;
+}
+
+h2 {
+  color: #8b949e;
+  font-weight: 600;
+  vertical-align: middle;
+  font-size: 22px;
+}
+
+h3 {
+  color: #c9d1d9;
+  font-weight: 500;
+  vertical-align: middle;
+  font-size: 16px;
+  margin-top: 0px;
+}
+
+#personal-container {
+  width: 70%;
+}
+
+.personal-row {
+  display: flex;
+  flex-direction: row;
+}
+
+.personal-row:not(:last-child) {
+  margin-bottom: 20px;
+}
+
+.personal-box {
+  border: 1.5px solid;
+  border-color: #30363d;
+  border-radius: 6px;
+  width: 100%;
+}
+
+.personal-box:not(:last-child) {
+  margin-right: 20px;
+}
+
+.personal-title {
+  font-weight: 600;
+  font-size: 16px;
+  color: #5ba3ff;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 5px;
+}
+
+.personal-content {
+  color: #8b949e;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+img {
+  border-style: none;
+}
+
+* {
+  box-sizing: border-box;
+}

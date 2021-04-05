@@ -32,9 +32,9 @@ assignment3.addEventListener('click', () => {
  */
 diana.addEventListener('click', () => {
   console.log('clicked diana!');
-  window.location.href = 'http://127.0.0.1:5500/diana.html';
+  //window.location.href = 'http://127.0.0.1:5500/diana.html';
 });
 nicole.addEventListener('click', () => {
   console.log('clicked nicole!');
-  window.location.href = 'http://127.0.0.1:5500/nicole.html';
+  //window.location.href = 'http://127.0.0.1:5500/nicole.html';
 });
